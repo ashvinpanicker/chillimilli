@@ -1,5 +1,5 @@
 import React from 'react';
-import ad from '../../dist/assets/ad.jpeg';
+import ad from '/ad.jpeg';
 
 const ProductInfo = () => {
   return (
