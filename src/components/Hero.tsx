@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShoppingBag } from 'lucide-react';
 import Hero3D from './Hero3D';
 
@@ -18,10 +17,22 @@ const Hero = () => {
               Experience the fiery magic of our vegan, low-calorie spicy treats!
             </p>
             <div className="flex space-x-4">
-              <button className="bg-spicy-yellow text-chilli-red font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition flex items-center">
-                <ShoppingBag className="mr-2" />
-                Order Now
-              </button>
+              <a
+                href="#product"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.querySelector('#product')?.scrollIntoView({
+                    behavior: 'smooth',
+                  });
+                }}
+              >
+                <button
+                  className="bg-spicy-yellow text-chilli-red font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition flex items-center"
+                >
+                  <ShoppingBag className="mr-2" />
+                  Order Now
+                </button>
+              </a>
               <button className="border-2 border-spicy-yellow text-spicy-yellow font-bold py-3 px-8 rounded-full hover:bg-spicy-yellow hover:text-chilli-red transition">
                 Learn More
               </button>
