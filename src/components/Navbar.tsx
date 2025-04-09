@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Flame, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { scrollToSection } from '../utils';
+import logo from '/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +11,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Flame className="h-8 w-8 text-spicy-yellow" />
-            <span className="ml-2 text-2xl font-bold text-white">Chilli Milli</span>
+            <img src={logo} alt="Heboga Logo" className="h-24 w-24 mr-2" />
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
