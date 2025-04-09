@@ -1,8 +1,9 @@
-import React from 'react';
+import { useState } from 'react';
 import { Flame, Menu, X } from 'lucide-react';
+import { scrollToSection } from '../utils';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-chilli-red shadow-lg fixed w-full z-50">
@@ -18,7 +19,10 @@ const Navbar = () => {
             <a href="#about" className="text-white hover:text-spicy-yellow transition">About</a>
             <a href="#features" className="text-white hover:text-spicy-yellow transition">Features</a>
             <a href="#product" className="text-white hover:text-spicy-yellow transition">Product</a>
-            <button className="bg-spicy-yellow text-chilli-red font-bold py-2 px-4 rounded-full hover:bg-yellow-400 transition">
+            <button 
+              className="bg-spicy-yellow text-chilli-red font-bold py-2 px-4 rounded-full hover:bg-yellow-400 transition"
+              onClick={() => scrollToSection('product')}
+            >
               Buy Now
             </button>
           </div>

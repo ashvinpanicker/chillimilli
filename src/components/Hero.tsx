@@ -1,5 +1,6 @@
 import { ShoppingBag } from 'lucide-react';
 import Hero3D from './Hero3D';
+import { scrollToSection } from '../utils';
 
 const Hero = () => {
   return (
@@ -17,23 +18,18 @@ const Hero = () => {
               Experience the fiery magic of our vegan, low-calorie spicy treats!
             </p>
             <div className="flex space-x-4">
-              <a
-                href="#product"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.querySelector('#product')?.scrollIntoView({
-                    behavior: 'smooth',
-                  });
-                }}
+              <button
+                className="bg-gradient-to-r from-spicy-yellow to-yellow-400 text-chilli-red font-bold py-3 px-8 rounded-full shadow-lg hover:from-yellow-400 hover:to-spicy-yellow hover:shadow-xl transition-all flex items-center"
+                onClick={() => scrollToSection('product')}
               >
-                <button
-                  className="bg-spicy-yellow text-chilli-red font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition flex items-center"
-                >
-                  <ShoppingBag className="mr-2" />
-                  Order Now
-                </button>
-              </a>
-              <button className="border-2 border-spicy-yellow text-spicy-yellow font-bold py-3 px-8 rounded-full hover:bg-spicy-yellow hover:text-chilli-red transition">
+                <ShoppingBag className="mr-2" />
+                Order Now
+              </button>
+              <button
+                className="border-2 bg-gradient-to-r from-slate-900 to-gray-800 border-spicy-yellow text-spicy-yellow font-bold py-3 px-8 rounded-full shadow-lg hover:border-blue-400 hover:text-blue-400 hover:shadow-xl transition-all"
+                onClick={() => scrollToSection('about')}
+              >
+                <span className="mr-2">🌶️</span>
                 Learn More
               </button>
             </div>
