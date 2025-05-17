@@ -1,4 +1,4 @@
-import { ShoppingBag } from 'lucide-react';
+// import { ShoppingBag } from 'lucide-react';
 
 const ProductInfo = () => {
   const products = [
@@ -44,22 +44,22 @@ const ProductInfo = () => {
     { 
       name: 'Zepto', 
       url: 'https://www.zepto.com',
-      logo: 'https://images.pexels.com/photos/zepto-logo.png'
+      logo: 'zepto.png'
     },
     { 
       name: 'Blinkit', 
       url: 'https://blinkit.com',
-      logo: 'https://images.pexels.com/photos/blinkit-logo.png'
+      logo: 'Blinkit.png'
     },
     { 
       name: 'BigBasket', 
       url: 'https://www.bigbasket.com',
-      logo: 'https://images.pexels.com/photos/bigbasket-logo.png'
+      logo: '/Bigbasket.png'
     },
     { 
       name: 'Instamart', 
       url: 'https://www.swiggy.com/instamart',
-      logo: 'https://images.pexels.com/photos/instamart-logo.png'
+      logo: 'instamart.avif'
     }
   ];
 
@@ -102,7 +102,7 @@ const ProductInfo = () => {
                 href={platform.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-spicy-yellow rounded-full shadow-md hover:shadow-lg transition"
+                className="inline-flex items-center px-6 py-3 rounded-full shadow-md hover:shadow-lg transition"
               >
                 <img 
                   src={platform.logo} 
