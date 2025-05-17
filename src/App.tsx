@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flame, Leaf, ShoppingBag, ChevronDown } from 'lucide-react';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import HeroCarousel from './components/HeroCarousel';
 import Features from './components/Features';
 import AboutUs from './components/AboutUs';
 import ProductInfo from './components/ProductInfo';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      <Hero />
+      <HeroCarousel />
       <Features />
       <AboutUs />
       <ProductInfo />
