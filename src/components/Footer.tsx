@@ -3,10 +3,10 @@ import { Instagram, Facebook, Twitter } from 'lucide-react';
 const Footer = () => {
   return (
     <footer className="bg-neutral-dark text-white">
-      <div className="w-full bg-spicy-yellow py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full bg-spicy-yellow">
+        <div className="">
           <img 
-            src="/footer-banner.jpeg" 
+            src="/HebogaFooterBanner.jpeg" 
             alt="Heboga Promise" 
             className="w-full h-auto rounded-lg shadow-lg"
           />
