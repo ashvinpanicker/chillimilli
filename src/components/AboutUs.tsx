@@ -1,4 +1,3 @@
-
 const AboutUs = () => {
   return (
     <div id="about" className="py-20 bg-white">
@@ -6,7 +5,7 @@ const AboutUs = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">About <span className="text-chilli-red">Heboga Confections</span></h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            An Indian-based company specialising in crafting unique, plant-based confectionery products inspired by popular flavours from across the globe.
+            Pioneering the future of confectionery with innovative, plant-based products that blend global flavors with Indian traditions. From spicy gummies to protein-rich cookies and natural coffee alternatives, we're crafting experiences that delight and nourish.
           </p>
         </div>
 
@@ -14,25 +13,25 @@ const AboutUs = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold mb-4">Our Story</h3>
             <p className="text-gray-600">
-              Heboga Confections Private Limited aims to revolutionise the confectionary & food market by offering a diverse range of innovative, high-quality gummy, lollipops, candies, popsicles confections tailored to modern consumer preferences.
+              Founded with a vision to revolutionize the global confectionery landscape, Heboga Confections began with a simple idea: create extraordinary treats that bring joy while embracing innovation and sustainability. Today, we're proud to offer a diverse portfolio of products that challenge conventions and delight consumers worldwide.
             </p>
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold text-lg mb-2">Innovation</h4>
                 <p className="text-gray-600">
-                  Continuously develop unique confectionary & food formulations that cater to changing tastes and dietary preferences, including organic, vegan, and sugar-free options.
+                  Our state-of-the-art R&D facility continuously develops unique formulations that push the boundaries of what's possible in confectionery. From our signature spicy gummies to protein-enriched cookies and innovative coffee alternatives, we're always exploring new horizons.
                 </p>
               </div>
               <div>
                 <h4 className="font-semibold text-lg mb-2">Quality</h4>
                 <p className="text-gray-600">
-                  Prioritise sourcing premium ingredients and adhering to stringent quality standards throughout the production process.
+                  We source only the finest ingredients and maintain rigorous quality standards throughout our production process. Our commitment to excellence ensures that every product bearing the Heboga name delivers an exceptional experience.
                 </p>
               </div>
               <div>
                 <h4 className="font-semibold text-lg mb-2">Brand Experience</h4>
                 <p className="text-gray-600">
-                  "Heboga" will not only offer exceptional confectionaries & food products but also create an immersive brand experience that resonates with consumers.
+                  Each Heboga product is crafted to create memorable moments. We believe in building lasting connections with our customers through exceptional products and experiences that resonate with their values and aspirations.
                 </p>
               </div>
             </div>
@@ -43,19 +42,19 @@ const AboutUs = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-4">Vision</h3>
                 <p className="text-gray-600">
-                  To become the largest and most trusted confectionery & food products company by 2030, delivering innovation, quality, and joy to customers worldwide.
+                  To become the world's largest and most innovative confectionery manufacturer by 2035, leading the industry in sustainable, plant-based products that bring joy to consumers globally while setting new standards for quality and innovation.
                 </p>
               </div>
               <div>
                 <h3 className="text-2xl font-bold mb-4">Mission</h3>
                 <p className="text-gray-600">
-                  To craft exceptional confectionery & food products that bring joy to every moment, prioritise customer satisfaction, embrace innovation, and uphold sustainability and ethical practices in all we do.
+                  To craft exceptional confectionery and food products that celebrate global flavors while prioritizing sustainability and ethical practices. We're committed to delighting consumers with innovative, plant-based treats that nourish both body and soul.
                 </p>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">Chilli Milli Launch</h3>
+                <h3 className="text-2xl font-bold mb-4">Our Promise</h3>
                 <p className="text-gray-600">
-                  After months of refining the recipe with various food technologists at our in-house lab, we're launching Chilli Milli Cubes in Bengaluru, available in local Kirana shops, smoke shops, supermarkets, and popular online platforms.
+                  Every Heboga product represents our commitment to excellence, innovation, and sustainability. From our vibrant Chilli Milli Cubes to our nourishing Melts Cookies and refreshing Noir Coffee, we're dedicated to creating products that inspire and excite.
                 </p>
               </div>
             </div>

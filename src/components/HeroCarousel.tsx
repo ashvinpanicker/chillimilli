@@ -10,25 +10,25 @@ const slides = [
   {
     id: 1,
     image: '/ad.jpeg',
-    title: "India's First Hot & Spicy Gummy Cubes",
-    description: "Experience the fiery magic of our vegan, low-calorie spicy treats!",
-    buttonText: "Order Now",
+    title: "Redefining Indian Confectionery",
+    description: "Experience our innovative blend of global flavors with local traditions. From spicy gummies to protein cookies, we're crafting joy in every bite.",
+    buttonText: "Explore Our Products",
     buttonLink: "#product"
   },
   {
     id: 2,
     image: '/melts.jpeg',
-    title: "The Cookie That Lifts",
-    description: "Indulge in our protein-packed choco chip cookies",
-    buttonText: "Learn More",
-    buttonLink: "#about"
+    title: "Melts Protein Cookie",
+    description: "Where indulgence meets nutrition. A perfect blend of rich chocolate and plant-based protein that lifts your spirits and powers your day.",
+    buttonText: "Discover Melts",
+    buttonLink: "#product"
   },
   {
     id: 3,
     image: '/noir.jpeg',
-    title: "Discover Noir Coffee",
-    description: "100% Natural, Gut Friendly & Naturally Energizing",
-    buttonText: "Shop Now",
+    title: "Noir Date Seed Coffee",
+    description: "Embrace the richness of our caffeine-free coffee alternative. 100% natural, gut-friendly, and naturally energizing.",
+    buttonText: "Experience Noir",
     buttonLink: "#product"
   }
 ];
