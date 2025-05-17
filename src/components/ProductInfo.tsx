@@ -41,13 +41,30 @@ const ProductInfo = () => {
   ];
 
   const platforms = [
-    { name: 'Zepto', url: 'https://www.zepto.com' },
-    { name: 'Blinkit', url: 'https://blinkit.com' },
-    { name: 'BigBasket', url: 'https://www.bigbasket.com' }
+    { 
+      name: 'Zepto', 
+      url: 'https://www.zepto.com',
+      logo: 'https://images.pexels.com/photos/zepto-logo.png'
+    },
+    { 
+      name: 'Blinkit', 
+      url: 'https://blinkit.com',
+      logo: 'https://images.pexels.com/photos/blinkit-logo.png'
+    },
+    { 
+      name: 'BigBasket', 
+      url: 'https://www.bigbasket.com',
+      logo: 'https://images.pexels.com/photos/bigbasket-logo.png'
+    },
+    { 
+      name: 'Instamart', 
+      url: 'https://www.swiggy.com/instamart',
+      logo: 'https://images.pexels.com/photos/instamart-logo.png'
+    }
   ];
 
   return (
-    <div id="product" className="py-20 bg-gray-50">
+    <div id="product" className="py-20 bg-neutral-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center mb-12">
           Our <span className="text-chilli-red">Products</span>
@@ -85,10 +102,14 @@ const ProductInfo = () => {
                 href={platform.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 bg-white rounded-full shadow-md hover:shadow-lg transition"
+                className="inline-flex items-center px-6 py-3 bg-spicy-yellow rounded-full shadow-md hover:shadow-lg transition"
               >
-                <ShoppingBag className="w-5 h-5 mr-2 text-chilli-red" />
-                <span>{platform.name}</span>
+                <img 
+                  src={platform.logo} 
+                  alt={`${platform.name} logo`} 
+                  className="w-6 h-6 mr-2"
+                />
+                <span className="text-neutral-dark font-semibold">{platform.name}</span>
               </a>
             ))}
           </div>

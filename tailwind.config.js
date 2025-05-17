@@ -7,7 +7,9 @@ export default {
         'chilli-red': '#FF1E1E',
         'chilli-dark': '#CC0000',
         'spicy-yellow': '#FFD700',
-        'leaf-green': '#228B22'
+        'leaf-green': '#228B22',
+        'neutral-bg': '#f8f9fa',
+        'neutral-dark': '#444444'
       },
       fontFamily: {
         'display': ['Poppins', 'sans-serif'],

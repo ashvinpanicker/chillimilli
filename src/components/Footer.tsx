@@ -1,24 +1,16 @@
-import {
-  Flame,
-  Instagram,
-  Facebook,
-  Twitter
-} from 'lucide-react';
-// import logo from '/logo.png';
+import { Instagram, Facebook, Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-chilli-dark text-white">
+    <footer className="bg-neutral-dark text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            {/* <img src={logo} alt="Heboga Logo" className="w-48 mb-4" /> */}
             <div className="flex items-center mb-4">
-              <Flame className="h-6 w-6 text-spicy-yellow" />
-              <span className="ml-2 text-xl font-bold">Chilli Milli</span>
+              <span className="text-xl font-bold">Heboga</span>
             </div>
             <p className="text-gray-300">
-              Spicing up your snack time with our hot & spicy gummy cubes.
+              Crafting innovative confectionery experiences that delight and inspire.
             </p>
           </div>
 
@@ -34,7 +26,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Email: info@chillimilli.com</li>
+              <li>Email: info@heboga.com</li>
               <li>Phone: +91 1234567890</li>
               <li>Address: Bengaluru, India</li>
             </ul>
