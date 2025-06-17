@@ -10,8 +10,8 @@ const slides = [
   {
     id: 1,
     image: '/FooterBanner.jpeg',
-    title: "Redefining Indian Confectionery",
-    description: "Experience our innovative blend of global flavors with local traditions. From spicy gummies to protein cookies, we're crafting joy in every bite.",
+    title: "Crafting the World's Finest Confectionery",
+    description: "From nostalgic treats to globally inspired bites, Heboga is redefining the snacking experience with quality, taste, and heart. Joyful indulgence, honest ingredients, and bold innovation.",
     buttonText: "Explore Our Products",
     buttonLink: "#product"
   },
@@ -19,7 +19,7 @@ const slides = [
     id: 2,
     image: '/Melts cover.jpeg',
     title: "Melts Protein Cookie",
-    description: "Where indulgence meets nutrition. A perfect blend of rich chocolate and plant-based protein that lifts your spirits and powers your day.",
+    description: "Fall in love with the world's strongest cookie! Rich, chewy, and unforgettable with 12g protein per serving. Made for moments of health, one cookie at a time.",
     buttonText: "Discover Melts",
     buttonLink: "#product"
   },
@@ -27,14 +27,14 @@ const slides = [
     id: 3,
     image: '/NoirCoffeeBanner.jpeg',
     title: "Noir Date Seed Coffee",
-    description: "Embrace the richness of our caffeine-free coffee alternative. 100% natural, gut-friendly, and naturally energizing.",
+    description: "Discover the world's finest date seed coffee! 100% natural, caffeine-free, gut-friendly, and naturally energizing. Perfect for mindful coffee lovers.",
     buttonText: "Experience Noir",
     buttonLink: "#product"
   }
 ];
 
 const HeroCarousel = () => {
-  const [ isHovered, setIsHovered] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div 
@@ -70,16 +70,15 @@ const HeroCarousel = () => {
               <img
                 src={slide.image}
                 alt={slide.title}
-                className="w-full h-full object-cover responsive"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-                <div className="text-center text-white px-4">
+                <div className="text-center text-white px-4 max-w-4xl">
                   <h2 className="text-4xl md:text-6xl font-bold mb-4">{slide.title}</h2>
-                  <p className="text-xl mb-8">{slide.description}</p>
+                  <p className="text-xl mb-8 max-w-3xl mx-auto">{slide.description}</p>
                   <a
                     href={slide.buttonLink}
-                    className="inline-block bg-spicy-yellow text-chilli-red font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition-all"
-                    style={ isHovered ? { scale: '1.05', transition: 'scale 0.2s ease-in-out' } : {} }
+                    className="inline-block bg-spicy-yellow text-neutral-dark font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition-all transform hover:scale-105"
                   >
                     {slide.buttonText}
                   </a>
