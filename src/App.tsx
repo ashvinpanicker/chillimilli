@@ -6,6 +6,7 @@ import Features from './components/Features';
 import AboutUs from './components/AboutUs';
 import ProductInfo from './components/ProductInfo';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutUs />
       <ProductInfo />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 }
